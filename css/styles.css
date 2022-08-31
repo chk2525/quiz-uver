@@ -144,5 +144,10 @@ header > h1 {
     background-position: center calc(bottom - 200px);
     background-repeat: no-repeat;
     background-size: contain;
+    height: 600px;
   } 
+
+  .container {
+    width: calc(100% - 50px);
+  }
 }
