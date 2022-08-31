@@ -85,11 +85,11 @@
     if (currentNum === quizSet.length - 1) {
       scoreLabel.textContent = `Score: ${score} / ${quizSet.length}`;
       if (score === quizSet.length) {
-        commentLabel.textContent = 'もしかして、UverWorldのメンバーですか？';
+        commentLabel.textContent = 'もしかして、UVERworldのメンバーですか？';
       } else if (score === 0) {
         commentLabel.textContent = '選択問題なのに0点？？？その辺のファンよりも詳しいアンチか？';
       } else if (score <= quizSet.length * 0.5) {
-        commentLabel.textContent = 'もっとUverWorldを聴きましょう！';
+        commentLabel.textContent = 'もっとUVERworldを聴きましょう！';
       } else {
         commentLabel.textContent = 'あなた、crewですね？？';
       }
