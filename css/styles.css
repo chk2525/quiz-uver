@@ -137,3 +137,12 @@ header > h1 {
   border: 2px solid hsla(45, 100%, 30%, 1);
   border-radius: 4px;
 }
+
+@media (max-width: 600px) {
+  body {
+    background-image: url(../img/uver_sg_first.jpg);
+    background-position: center calc(bottom - 200px);
+    background-repeat: no-repeat;
+    background-size: contain;
+  } 
+}
